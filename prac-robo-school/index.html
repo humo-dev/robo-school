@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Lato:wght@300;400&
+    family=Lunasima:wght@400;700&
+    family=Poppins:wght@100;300;400&family=Roboto:wght@300;400&
+    family=Ruda&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Robo-School</title>
+</head>
+<body>
+    <div class="header">
+        <div class="main">
+            <div class="burger-btn">
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+            <div class="logo">
+                <h1>Robo.School</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">О школе</a></li>
+                    <li><a href="#">Тренеры</a></li>
+                    <li><a href="#">Стоимость</a></li>
+                </ul>
+            </div>
+            <div class="phone-number">
+                <h1>+7 800 000 11 22</h1>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="text-of-school">
+                <h1>ROBO SCHOOL</h1>
+                <p>Курсы повышения квалификации по робототехнике <br>для педагогов начальной школы</p>
+                <div class="under-the-text">
+                    <button id="openBtnModal">Записаться на курс</button>
+                </div>
+                <div class="modal" id="modal">
+                    <div class="modal-container">
+                        <div class="up-con">
+                            <h1>Записаться на курс</h1>
+                            <img src="imges/x.png" alt="delete" id="cancelModalButton">
+                        </div>
+                        <div class="inputs">
+                            <form>
+                                <label for="name">Имя</label>
+                                <input id="name" type="text" required>
+                                <label for="email">E-mail</label>
+                                <input id="email" type="email" required>
+                                <label for="number">Телефон</label>
+                                <input id="number" type="number" required>
+                                <div class="modal-action">
+                                    <button id="btnAction">Оформить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="school-img">
+                <img src="imges/main_logo.png" alt="main_logo">
+            </div>
+        </div>
+    </div>
+    <div class="header-2">
+        <div class="container-text">
+            <h1>Robo School – <span>учреждение для формирования кадрового <br>педагогического резерва в сфере робототехники <br>и программирования</span></h1>
+        </div>
+        <div class="counteres">
+            <div class="couner-1">
+                <h1>10</h1>
+                <h3>УМК по различным <br>направлениям по робототехнике</h3>
+            </div>
+            <div class="couner-2">
+                <h1>20</h1>
+                <h3>Школ, в которых запущена <br>робототехника</h3>
+            </div>
+            <div class="couner-3">
+                <h1>100</h1>
+                <h3>Педагогов прошедших курсы <br>повышения квалификации</h3>
+            </div>
+            <div class="couner-4">
+                <h1>10 000</h1>
+                <h3>Обученных детей на базе <br>собственных центров</h3>
+            </div>
+        </div>
+    </div>
+    <div class="header-3">
+        <div class="text-curs">
+            <h1>Что вы получите после курса</h1>
+        </div>
+        <div class="percpet">
+            <div class="pers-1">
+                <h1>Удостоверение</h1>
+                <h3>Дающее право преподавать робототехнику <br>для детей 6-12 лет в образовательных <br>учреждениях</h3>
+            </div>
+            <div class="pers-2">
+                <h1>Знания</h1>
+                <h3>По основам разработки учебно- <br>методических комплексов <br>по робототехнике и программированию</h3>
+            </div>
+            <div class="pers-3">
+                  <div class="dalo" id="dalo">
+                    <div class="dalo-container">
+                        <h1>При наличии свободных мест</h1>
+                    </div>
+                  </div>
+                <h3>Возможность пройти практику <br>по преподаванию робототехники на базе <br>R:ED LAB (в оффлайн или онлайн формате)</h3>
+            </div>
+        </div>
+    </div>
+    <div class="header-4">
+        <div class="text-int">
+            <h1>Профессиональные тренеры</h1>
+        </div>
+        <div class="store-img">
+            <div class="wrapper">
+                <div class="img-1">
+                    <img src="imges/pic-1.jpg" alt="pic-1">
+                    <h1>Ирина Лайм</h1>
+                    <p>преподаватель по робототехнике</p>
+                    <div class="some-btn">
+                        <button id="dom">Подробнее</button>
+                    </div>
+                </div>
+                <div class="mod" id="mod">
+                    <div class="mod-con">
+                        <div class="mod-option">
+                            <div class="mod-img">
+                                <img src="imges/pic-1.jpg" alt="pic-1">
+                            </div>
+                            <div class="mod-text">
+                                <h1>Ирина Лайм</h1>
+                                 <p>преподаватель по робототехнике</p>
+                                 <img src="Facebook.svg" alt="Facebook">
+                                 <img src="Instagram.svg" alt="Instagram">
+                                </div>
+                                <div class="proto">
+                                    <p class="somePar" id="somePar">Закрыть</p>
+                                </div>
+                            </div>
+                            <div class="mod-vlog">
+                               <h1>Опыт работы</h1>
+                               <p>Сентябрь 1995 — Июнь 2000
+                                  <br>Санкт-Петербургский политехнический университет Петра Великого
+                                  <br>Факультет: Компьютерных наук и технологий
+                                  <br>Специальность: Математика и компьютерные науки
+                                  <br>Форма обучения: Очная
+                               </p>
+                         </div>
+                         <div class="mod-curse">
+                            <h1>Курсы и тренинги</h1>
+                            <p>Ноябрь 2020 — Февраль 2021
+                               <br>Программа дополнительного образования «3D Моделирование»
+                            </p>
+                         </div>
+                    </div>
+                </div>
+                <div class="img-2">
+                    <img src="imges/pic-2.jpg" alt="pic-2">
+                    <h1>Марина Орлова</h1>
+                    <p>преподаватель по робототехнике</p>
+                    <div class="some-btn-2">
+                        <button id="domSecond">Подробнее</button>
+                    </div>
+                </div>
+                <div class="mod-2" id="secondMod">
+                    <div class="mod-con-2">
+                        <div class="mod-option">
+                            <div class="mod-img">
+                                <img src="imges/pic-2.jpg" alt="pic-2">
+                            </div>
+                            <div class="mod-text">
+                                <h1>Ирина Лайм</h1>
+                                 <p>преподаватель по робототехнике</p>
+                                 <img src="Facebook.svg" alt="Facebook">
+                                 <img src="Instagram.svg" alt="Instagram">
+                                </div>
+                                <div class="proto">
+                                  <p class="somePar" id="seconPar">Закрыть</p>
+                            </div>
+                        </div>
+                        <div class="mod-vlog">
+                            <h1>Опыт работы</h1>
+                               <p>Сентябрь 1995 — Июнь 2000
+                                  <br>Санкт-Петербургский политехнический университет Петра Великого
+                                  <br>Факультет: Компьютерных наук и технологий
+                                  <br>Специальность: Математика и компьютерные науки
+                                  <br>Форма обучения: Очная
+                                </p>
+                        </div>
+                        <div class="mod-curse">
+                            <h1>Курсы и тренинги</h1>
+                            <p>Ноябрь 2020 — Февраль 2021
+                               <br>Программа дополнительного образования «3D Моделирование»
+                            </p>
+                         </div>
+                    </div>
+                </div>
+                <div class="img-3">
+                    <img src="imges/pic-3.jpg" alt="pic-3">
+                    <h1>Максим Петров</h1>
+                    <p>преподаватель по программированию</p>
+                    <div class="some-btn-3">
+                        <button id="domThreed">Подробнее</button>
+                    </div>
+                </div>
+                <div class="mod-3" id="sordMod">
+                    <div class="mod-con-2">
+                        <div class="mod-option">
+                            <div class="mod-img">
+                                <img src="imges/pic-3.jpg" alt="pic-3">
+                            </div>
+                            <div class="mod-text">
+                                <h1>Максим Петров</h1>
+                                <p>преподаватель по программированию</p>
+                                 <img src="Facebook.svg" alt="Facebook">
+                                 <img src="Instagram.svg" alt="Instagram">
+                                </div>
+                                <div class="proto">
+                                  <p class="somePar" id="sordPar">Закрыть</p>
+                            </div>
+                        </div>
+                        <div class="mod-vlog">
+                            <h1>Опыт работы</h1>
+                               <p>Сентябрь 1995 — Июнь 2000
+                                  <br>Санкт-Петербургский политехнический университет Петра Великого
+                                  <br>Факультет: Компьютерных наук и технологий
+                                  <br>Специальность: Математика и компьютерные науки
+                                  <br>Форма обучения: Очная
+                                </p>
+                        </div>
+                        <div class="mod-curse">
+                            <h1>Курсы и тренинги</h1>
+                            <p>Ноябрь 2020 — Февраль 2021
+                               <br>Программа дополнительного образования «3D Моделирование»
+                            </p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-5">
+        <div class="up-text">
+            <h1>Выберите нужный пакет</h1>
+        </div>
+        <div class="all-cards">
+            <div class="card-1">
+                <div class="text-pro">
+                    <h1>– PRO –</h1>
+                </div>
+                <div class="card-content-1">
+                    <div class="price-1">
+                        <h1>20.000 ₽</h1>
+                        <p>УМК по робототетхнике <br>и программированию</p>
+                    </div>
+                    <div class="price-btn-1">
+                        <button id="priceBtn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="text-robo">
+                    <h1>– ROBO –</h1>
+                </div>
+                <div class="card-content-2">
+                    <div class="price-2">
+                        <h1>15.000 ₽</h1>
+                        <p>УМК по робототетхнике </p>
+                    </div>
+                    <div class="price-btn-2">
+                        <button id="priceSecondBtn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3">
+                <div class="text-prog">
+                    <h1>– PROG –</h1>
+                </div>
+                <div class="card-content-3">
+                    <div class="price-3">
+                        <h1>10.000 ₽</h1>
+                        <p>УМК по программированию</p>
+                    </div>
+                    <div class="price-btn-3">
+                        <button id="priceSordBtn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-6">
+        <div class="content-store">
+            <div class="store-text">
+                <h1>Запишитесь на курс <br>со скидкой 10%</h1>
+                <p>Акция действительна до 10 марта 2024 года</p>
+            </div>
+            <div class="formating">
+                <form id="formating">
+                    <label  for="name">Имя</label>
+                    <input id="name" type="text" required>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" required>
+                    <label for="number">Телефон</label>
+                    <input id="number" type="number" required>
+                    <div class="btn-input">
+                        <button>Оформить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="header-7">
+        <div class="last-section">
+            <div class="finel-text">
+                <h1>ROBO.SCHOOL</h1>
+                <p>© ROBO.SCHOOL</p>
+            </div>
+            <div class="last-number">
+                <h1>+7 800 000 11 22</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="java.js"></script>
+</body>
+</html>
